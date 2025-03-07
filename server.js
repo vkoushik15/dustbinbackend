@@ -5,7 +5,7 @@ const dbRoutes = require('./routes/dbRoutes')
 const Db = require('./conn')
 const cors = require('cors')
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://dustbinnitw-823d1.web.app',
     credentials: true,
     optionSuccessStatus: 200,
     methods: "GET, POST, PUT, DELETE"
